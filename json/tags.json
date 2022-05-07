@@ -12,13 +12,113 @@
             "name":"main",
             "tagStart":"<main>",
             "tagEnd": "</main>"
+        {   "name":"p",
+            "tagStart":"<p>",
+            "tagEnd": "</p>"
+        },
+        {   "name":"ul",
+            "tagStart":"<ul>",
+            "tagEnd": "</ul>"
+        },
+        {   "name":"ol",
+            "tagStart":"<ol>",
+            "tagEnd": "</ol>"
+        },
+        {   "name":"li",
+            "tagStart":"<li>",
+            "tagEnd": "</li>"
+        },
+        {   "name":"a",
+            "tagStart":"<a>",
+            "tagEnd": "</a>"
+        },
+        {   "name":"img",
+            "tagStart":"<img>",
+            "tagEnd": "</img>"
+        },
+        {   "name":"button",
+            "tagStart":"<button>",
+            "tagEnd": "</button>"
+        },
+        {   "name":"form",
+            "tagStart":"<form>",
+            "tagEnd": "</form>"
+        },
+        {   "name":"input",
+            "tagStart":"<input>",
+            "tagEnd": "</input>"
+        },
+        {   "name":"select",
+            "tagStart":"<select>",
+            "tagEnd": "</select>"
+        },
+        {   "name":"option",
+            "tagStart":"<option>",
+            "tagEnd": "</option>"
+        },
+        {   "name":"textarea",
+            "tagStart":"<textarea>",
+            "tagEnd": "</textarea>"
+        },
+        {   "name":"label",
+            "tagStart":"<label>",
+            "tagEnd": "</label>"
+        },
+        {   "name":"table",
+            "tagStart":"<table>",
+            "tagEnd": "</table>"
+        },
+        {   "name":"tr",
+            "tagStart":"<tr>",
+            "tagEnd": "</tr>"
+        },
+        {   "name":"td",
+            "tagStart":"<td>",
+            "tagEnd": "</td>"
+        },
+        {   "name":"th",
+            "tagStart":"<th>",
+            "tagEnd": "</th>"
+        },
+        {   "name":"tbody",
+            "tagStart":"<tbody>",
+            "tagEnd": "</tbody>"
+        },
+        {   "name":"article",
+            "tagStart":"<article>",
+            "tagEnd": "</article>"
+        },
+        {   "name":"section",
+            "tagStart":"<section>",
+            "tagEnd": "</section>"
         }
+        
         ],
  "elementsfooter": [
         {
             "name":"footer",
             "tagStart":"<footer>",
             "tagEnd": "</footer>"
+        }, 
+        {   "name":"h1",
+            "tagStart":"<h1>",
+            "tagEnd": "</h1>"
+        },
+        {   "name":"h2",
+            "tagStart":"<h2>",
+            "tagEnd": "</h2>"
+        },
+        {   "name":"h3",
+            "tagStart":"<h3>",
+            "tagEnd": "</h3>"
+        },
+        {   "name":"h4",
+            "tagStart":"<h4>",
+            "tagEnd": "</h4>"
+        },
+        {   "name":"p",
+            "tagStart":"<p>",
+            "tagEnd": "</p>"
         }
         ]
 }
