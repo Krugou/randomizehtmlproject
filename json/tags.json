@@ -1,0 +1,24 @@
+{ 
+    "elementsheader": [ 
+        {
+			"name":"header",
+			"tagStart":"<header>",
+			"tagEnd": "</header>"
+			
+		}
+    ],
+     "elementsmain": [
+        {
+            "name":"main",
+            "tagStart":"<main>",
+            "tagEnd": "</main>"
+        }
+        ],
+ "elementsfooter": [
+        {
+            "name":"footer",
+            "tagStart":"<footer>",
+            "tagEnd": "</footer>"
+        }
+        ]
+}
