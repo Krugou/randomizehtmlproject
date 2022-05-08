@@ -12,6 +12,7 @@
             "name":"main",
             "tagStart":"<main>",
             "tagEnd": "</main>"
+        },
         {   "name":"p",
             "tagStart":"<p>",
             "tagEnd": "</p>"
@@ -91,7 +92,87 @@
         {   "name":"section",
             "tagStart":"<section>",
             "tagEnd": "</section>"
+        },       {   "name":"footer",
+            "tagStart":"<footer>",
+            "tagEnd": "</footer>"
+        },
+        {   "name":"nav",
+            "tagStart":"<nav>",
+            "tagEnd": "</nav>"
+        },
+        {   "name":"aside",
+            "tagStart":"<aside>",
+            "tagEnd": "</aside>"
+        },
+        {   "name":"h1",
+            "tagStart":"<h1>",
+            "tagEnd": "</h1>"
+        },
+        {   "name":"h2",
+            "tagStart":"<h2>",
+            "tagEnd": "</h2>"
+        },
+        {   "name":"h3",
+            "tagStart":"<h3>",
+            "tagEnd": "</h3>"
+        },
+        {   "name":"h4",
+            "tagStart":"<h4>",
+            "tagEnd": "</h4>"
+        },
+        {   "name":"h5",
+            "tagStart":"<h5>",
+            "tagEnd": "</h5>"
+        },
+        {   "name":"h6",
+            "tagStart":"<h6>",
+            "tagEnd": "</h6>"
+        },
+        {   "name":"div",
+            "tagStart":"<div>",
+            "tagEnd": "</div>"
+        },
+        {   "name":"span",
+            "tagStart":"<span>",
+            "tagEnd": "</span>"
+        },
+        {   "name":"table",
+            "tagStart":"<table>",
+            "tagEnd": "</table>"
+        },
+        {   "name":"tr",
+            "tagStart":"<tr>",
+            "tagEnd": "</tr>"
+        },
+        {   "name":"td",
+            "tagStart":"<td>",
+            "tagEnd": "</td>"
+        },
+        {   "name":"th",
+            "tagStart":"<th>",
+            "tagEnd": "</th>"
+        },
+        {   "name":"tbody",
+            "tagStart":"<tbody>",
+            "tagEnd": "</tbody>"
+        },
+        {   "name":"article",
+            "tagStart":"<article>",
+            "tagEnd": "</article>"
+        },
+        {   "name":"section",
+            "tagStart":"<section>",
+            "tagEnd": "</section>"
+        },
+        {   "name":"footer",
+            "tagStart":"<footer>",
+            "tagEnd": "</footer>"
+        },
+        {   "name":"nav",
+            "tagStart":"<nav>",
+            "tagEnd": "</nav>"
         }
+
         
         ],
  "elementsfooter": [
