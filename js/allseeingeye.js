@@ -1,7 +1,16 @@
 const tags = "./json/tags.json";
-let content;
-let content2;
 randomize();
+
+// Fisher-Yates shuffle algorithm to randomize array
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 function randomize() {
   fetch(tags)
     .then((response) => {
@@ -12,19 +21,16 @@ function randomize() {
       }
     })
     .then((tags) => {
-      for (let i = 0; i < tags.elementsmain.length; i++) {
-        content2 += tags.elementsmain[i].tagStart
-        content2 += tags.elementsmain[i].name
-        content2 += tags.elementsmain[i].tagEnd;
-        console.log(tags.elementsmain[i].tagStart);
-        console.log(content2);
+      // Shuffle the elements array
+      const shuffledElements = shuffleArray(tags.elementsmain);
+      
+      let content = "";
+      for (let i = 0; i < shuffledElements.length; i++) {
+        content += shuffledElements[i].tagStart;
+        content += shuffledElements[i].name;
+        content += shuffledElements[i].tagEnd;
       }
-      content =
-        tags.elementsmain[0].tagStart +
-        tags.elementsmain[0].name+" " +
-        content2 +
-        tags.elementsmain[0].tagEnd;
-      console.log(content);
-      let website = (document.body.innerHTML = content);
+      
+      document.body.innerHTML = content;
     });
 }
